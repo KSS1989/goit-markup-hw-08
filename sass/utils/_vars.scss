@@ -1,0 +1,60 @@
+$text-color: #757575;
+$logo-color: #2196f3;
+$fon-color: #ffffff;
+$titel-color: #212121;
+$fon-hero-color: #2f303a;
+$team-color: #f5f4fa;
+$icon-color: #afb1b8;
+$border-portfolio-color: #eeeeee;
+$paddidng-top-section: 94px;
+$paddidng-bottom-section: 94px;
+$time-animacion: cubic-bezier(0.4, 0, 0.2, 1);
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $text-color;
+  background-color: $fon-color;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.conteiner__header {
+  display: flex;
+  align-items: center;
+}
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
