@@ -21,6 +21,7 @@
 
   &__card {
     position: relative;
+    display: block;
   }
 
   &__name {
@@ -37,4 +38,11 @@
     color: $fon-color;
     background: rgba(47, 48, 58, 0.8);
   }
+}
+@media (max-width:1198px ) {
+  .specifics{
+    display:none;
+
+  }
+  
 }

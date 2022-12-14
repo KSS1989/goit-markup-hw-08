@@ -1,10 +1,15 @@
 .nav {
-  display: flex;
-  align-items: center;
-
+  @media screen and (min-width: 768px) {
+    .mobile-menu {
+      display: flex;
+      align-items: center;
+    }
+  }
   &__list {
-    display: flex;
-    margin-left: 93px;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-left: 93px;
+    }
   }
 
   &__item:not(:last-child) {
@@ -25,5 +30,15 @@
     &:focus {
       color: $logo-color;
     }
+  }
+}
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: flex;
   }
 }

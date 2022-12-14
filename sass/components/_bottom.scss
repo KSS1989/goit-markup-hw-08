@@ -15,11 +15,14 @@
     color: $fon-color;
   }
 }
+// @media (min-width:1200px){
+//   .conteiner-bottom {
+//     width: 1200px;
+//     display: flex;
+//     align-items: baseline;
+//   }
+// }
 
-.conteiner-bottom {
-  display: flex;
-  align-items: baseline;
-}
 
 .address {
   font-style: normal;
