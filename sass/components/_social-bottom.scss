@@ -1,10 +1,14 @@
 .bottom_social {
+  @media screen and(max-width:767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   display: block;
-  margin-left: 70px;
-
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
   &__titel {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: $fon-color;
@@ -26,5 +30,10 @@
   &:hover {
     background-color: $logo-color;
     color: $fon-color;
+  }
+}
+@media (max-width: 767px) {
+  .bottom_social .social-list {
+    margin-top: 20px;
   }
 }

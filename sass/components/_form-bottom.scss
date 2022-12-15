@@ -7,11 +7,21 @@
   margin-bottom: 8px;
   text-transform: uppercase;
   color: $fon-color;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-bottom__text {
+    text-align: center;
+  }
 }
 
 .form-bottom__card {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 input::placeholder.form-bottom__input {
@@ -19,7 +29,7 @@ input::placeholder.form-bottom__input {
 }
 
 .form-bottom__input {
-  width: 358px;
+  width: 458px;
   height: 50px;
   padding-left: 16px;
   font-size: 16px;
@@ -57,6 +67,12 @@ input::placeholder.form-bottom__input {
   &:focus,
   &:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-bottom__submit {
+    margin-top: 20px;
+    margin-left: 0;
   }
 }
 

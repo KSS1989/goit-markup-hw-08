@@ -15,20 +15,30 @@
     color: $fon-color;
   }
 }
-// @media (min-width:1200px){
-//   .conteiner-bottom {
-//     width: 1200px;
-//     display: flex;
-//     align-items: baseline;
-//   }
-// }
-
+@media (max-width: 767px) {
+  .conteiner-bottom {
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .conteiner-bottom {
+    width: 1200px;
+    display: flex;
+    align-items: baseline;
+  }
+}
 
 .address {
+  @media screen and(max-width:767px) {
+    margin-top: 28px;
+  }
   font-style: normal;
   margin-top: 20px;
   &__item:not(:first-child) {
     margin-top: 9px;
+    @media screen and (max-width: 767px) {
+      margin-top: 12px;
+    }
   }
 
   &__map {

@@ -1,29 +1,37 @@
 .team {
-  // padding-top: $paddidng-top-section;
-  // padding-bottom: $paddidng-bottom-section;
-  background-color: $team-color;
-  &__name {
-    padding-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    color: $titel-color;
+  @media (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    // padding-top: $paddidng-top-section;
+    // padding-bottom: $paddidng-bottom-section;
+    background-color: $team-color;
+    &__name {
+      padding-top: 30px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+      text-align: center;
+      color: $titel-color;
+    }
+    &__profession {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.19;
+    }
+    &__titel {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      color: $titel-color;
+    }
   }
-  &__profession {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.19;
+  @media screen and (max-width: 767px) {
+    .team__card:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
-  &__titel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: $titel-color;
-  }
-
   &__list {
     display: flex;
     flex-wrap: wrap;
