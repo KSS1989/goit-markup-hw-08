@@ -55,6 +55,11 @@ img {
     align-items: center;
   }
 }
+@media screen and (max-width: 767px) {
+  .conteiner__header {
+    position: relative;
+  }
+}
 
 .conteiner {
   margin: 0 auto;

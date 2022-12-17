@@ -16,42 +16,44 @@
 <body>
   <header class="page-header">
     <div class="conteiner conteiner__header">
-      <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
-      <div class="mobile-menu">
-        <nav class="nav">
-          <ul class="nav__list ">
-            <li class="nav__item">
-              <div class="current">
-                <a href="./index.html" class=" nav__sate nav__sate-current">Студія</a>
-              </div>
-            </li>
-            <li class="nav__item">
-              <a href="./portfolio.html" class="nav__sate">Портфоліо
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contacts" class="nav__sate">Контакти
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contact-header">
-          <li class="contact-header__item">
-            <a href="mailto:info@devstudio.com" class="contact-header__link">
-              <svg class="contact-header__icon contact-header__icon--envelope">
-                <use href="./images/icons.svg#icon-envelope">
-                </use>
-              </svg>info@devstudio.com</a>
+      <nav class="nav">
+        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+        <button type="button" class="button-open">
+          <svg class="burgger-icon">
+            <use href="./images/mobile-menu.svg#icon-menu"></use>
+        </button>
+        </svg>
+        <ul class="nav__list ">
+          <li class="nav__item">
+            <div class="current">
+              <a href="./index.html" class=" nav__sate nav__sate-current">Студія</a>
+            </div>
           </li>
-          <li class="contact-heder__item">
-            <a href="tel:+380961111111" class="contact-header__link">
-              <svg class="contact-header__icon contact-header__icon--smartphone">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg> +38 096 111 11 11</a>
+          <li class="nav__item">
+            <a href="./portfolio.html" class="nav__sate">Портфоліо
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__sate">Контакти
+            </a>
           </li>
         </ul>
-      </div>
-
+      </nav>
+      <ul class="contact-header">
+        <li class="contact-header__item">
+          <a href="mailto:info@devstudio.com" class="contact-header__link">
+            <svg class="contact-header__icon contact-header__icon--envelope">
+              <use href="./images/icons.svg#icon-envelope">
+              </use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li class="contact-heder__item">
+          <a href="tel:+380961111111" class="contact-header__link">
+            <svg class="contact-header__icon contact-header__icon--smartphone">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg> +38 096 111 11 11</a>
+        </li>
+      </ul>
     </div>
   </header>
   <main>
@@ -594,7 +596,58 @@
       </form>
     </div>
   </div>
+
+  <div class="mobile mobile-none">
+    <ul class="mobile__list ">
+      <li class="mobile__item">
+        <div class="current">
+          <a href="./index.html" class=" mobile__sate nav__sate-current">Студія</a>
+        </div>
+      </li>
+      <li class="mobile__item">
+        <a href="./portfolio.html" class="mobile__sate">Портфоліо
+        </a>
+      </li>
+      <li class="mobile__item">
+        <a href="#contacts" class="mobile__sate">Контакти
+        </a>
+      </li>
+    </ul>
+    <ul class="mobile-header">
+
+      <li class="mobile-header__item">
+        <a href="tel:+380961111111" class="mobile-header__link">
+          +38 096 111 11 11</a>
+      </li>
+      <li class="mobile-header__item">
+        <a href="mailto:info@devstudio.com" class="mobile-header__link">
+          info@devstudio.com</a>
+      </li>
+    </ul>
+    <ul class="mobile-social-list">
+      <li class="mobile-social-list__item">
+        <a href="https://instagram.com" class="mobile-social-list__link mobile-social-list__link-bottom">Instagram</a>
+      </li>
+      <li class="mobile-social-list__item">
+        <a href="https://twitter.com" class="mobile-social-list__link mobile-social-list__link-bottom">Twitter</a>
+      </li>
+      <li class="mobile-social-list__item">
+        <a href="https://facebook.com" class="mobile-social-list__link mobile-social-list__link-bottom">Facebook</a>
+      </li>
+      <li class="mobile-social-list__item">
+        <a href="https://linkedin.com" class="mobile-social-list__link mobile-social-list__link-bottom">LinkedIn</a>
+      </li>
+    </ul>
+    <button type="button" class="mobile-close">
+      <svg class="mobile-close-icon">
+        <use href="./images/mobile-menu.svg#icon-close"></use>
+      </svg>
+    </button>
+
+  </div>
+
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile.js"></script>
 </body>
 
 </html>
