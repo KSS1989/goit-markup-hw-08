@@ -14,11 +14,6 @@
   overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms $time-animacion;
-  @media screen and (max-width: 767px) {
-    padding-top: 93px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 
 .modal {

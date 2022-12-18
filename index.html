@@ -17,12 +17,17 @@
   <header class="page-header">
     <div class="conteiner conteiner__header">
       <nav class="nav">
-        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
-        <button type="button" class="button-open">
+        <a class="logo" href="./index.html">
+          <span class="web">Web</span>Studio</a>
+
+
+        <button type="button" class="button-open js-open-menu" aria-controls="mobile">
           <svg class="burgger-icon">
             <use href="./images/mobile-menu.svg#icon-menu"></use>
+          </svg>
         </button>
-        </svg>
+
+
         <ul class="nav__list ">
           <li class="nav__item">
             <div class="current">
@@ -597,7 +602,7 @@
     </div>
   </div>
 
-  <div class="mobile mobile-none">
+  <div class="mobile js-menu-container is-open mobile-none" id="mobile">
     <ul class="mobile__list ">
       <li class="mobile__item">
         <div class="current">
@@ -638,7 +643,7 @@
         <a href="https://linkedin.com" class="mobile-social-list__link mobile-social-list__link-bottom">LinkedIn</a>
       </li>
     </ul>
-    <button type="button" class="mobile-close">
+    <button type="button" class="mobile__button-close js-close-menu">
       <svg class="mobile-close-icon">
         <use href="./images/mobile-menu.svg#icon-close"></use>
       </svg>
