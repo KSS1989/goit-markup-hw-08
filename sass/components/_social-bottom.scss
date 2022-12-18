@@ -1,7 +1,7 @@
 .bottom_social {
   @media screen and(max-width:767px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: $paddidng-top-section-mobile;
+    padding-bottom: $paddidng-bottom-section-mobile;
   }
   display: block;
   @media screen and (min-width: 1200px) {
@@ -12,8 +12,12 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: $fon-color;
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
   }
 }
+
 .social-list__link-bottom {
   display: flex;
   width: 44px;

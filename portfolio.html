@@ -30,13 +30,13 @@
 
         <ul class="nav__list ">
           <li class="nav__item">
-            <div class="current">
-              <a href="./index.html" class=" nav__sate nav__sate-current">Студія</a>
-            </div>
+            <a href="./index.html" class=" nav__sate">Студія</a>
           </li>
           <li class="nav__item">
-            <a href="./portfolio.html" class="nav__sate">Портфоліо
-            </a>
+            <div class="current">
+              <a href="./portfolio.html" class="nav__sate nav__sate-current">Портфоліо
+              </a>
+            </div>
           </li>
           <li class="nav__item">
             <a href="#contacts" class="nav__sate">Контакти
@@ -52,7 +52,7 @@
               </use>
             </svg>info@devstudio.com</a>
         </li>
-        <li class="contact-heder__item">
+        <li class="contact-header__item">
           <a href="tel:+380961111111" class="contact-header__link">
             <svg class="contact-header__icon contact-header__icon--smartphone">
               <use href="./images/icons.svg#icon-smartphone"></use>
@@ -360,67 +360,70 @@
   </main>
   <footer class="bottom">
     <div class="conteiner conteiner-bottom">
-      <div class="bottom__info">
-        <a class="logo bottom__logo" href="./index.html"><span class="web">Web</span>Studio</a>
+      <div class="tablet-bottom">
+        <div class="bottom__info">
+          <a class="logo bottom__logo" href="./index.html"><span class="web">Web</span>Studio</a>
 
-        <address class="address">
-          <ul class="address__list">
-            <li class="address__item">
-              <a class="address__map" href="https://goo.gl/maps/SfQESJmpyGkEM5ET7" target="_blank"
-                rel="noreferrer noopener">
-                м. Київ, пр-т Лесі Українки, 26
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a class="address__map" href="https://goo.gl/maps/SfQESJmpyGkEM5ET7" target="_blank"
+                  rel="noreferrer noopener">
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com"
+                  class="contact-header__link contact-header__link--bottom">info@devstudio.com</a>
+              </li>
+
+              <li class="address__item">
+                <a href="tel:+380961111111" class="contact-header__link contact-header__link--bottom">+38 096 111 11
+                  11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="bottom_social">
+          <p class="bottom_social__titel">приєднуйтесь</p>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="https://instagram.com" class="social-list__link social-list__link-bottom">
+                <svg class="social-list__icon">
+                  <use href="./images/icons.svg#icon-instagram">
+                  </use>
+                </svg>
               </a>
             </li>
-
-            <li class="address__item">
-              <a href="mailto:info@devstudio.com"
-                class="contact-header__link contact-header__link--bottom">info@devstudio.com</a>
+            <li class="social-list__item">
+              <a href="https://twitter.com" class="social-list__link social-list__link-bottom">
+                <svg class="social-list__icon">
+                  <use href="./images/icons.svg#icon-Twitter">
+                  </use>
+                </svg>
+              </a>
             </li>
-
-            <li class=" address__item">
-              <a href="tel:+380961111111" class="contact-header__link contact-header__link--bottom">+38 096 111 11
-                11</a>
+            <li class="social-list__item">
+              <a href="https://facebook.com" class="social-list__link social-list__link-bottom">
+                <svg class="social-list__icon">
+                  <use href="./images/icons.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://linkedin.com" class="social-list__link social-list__link-bottom">
+                <svg class="social-list__icon">
+                  <use href="./images/icons.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
-      <div class="bottom_social">
-        <p class="bottom_social__titel">приєднуйтесь</p>
-        <ul class="social-list">
-          <li class="social-list__item">
-            <a href="https://instagram.com" class="social-list__link social-list__link-bottom">
-              <svg class="social-list__icon">
-                <use href="./images/icons.svg#icon-instagram">
-                </use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="https://twitter.com" class="social-list__link social-list__link-bottom">
-              <svg class="social-list__icon">
-                <use href="./images/icons.svg#icon-Twitter">
-                </use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="https://facebook.com" class="social-list__link social-list__link-bottom">
-              <svg class="social-list__icon">
-                <use href="./images/icons.svg#icon-facebook">
-                </use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a href="https://linkedin.com" class="social-list__link social-list__link-bottom">
-              <svg class="social-list__icon">
-                <use href="./images/icons.svg#icon-linkedin">
-                </use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
+
       <div class="bottom__box">
         <form class="form-bottom">
           <p class="form-bottom__text">Підпишіться на розсилку</p>

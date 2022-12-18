@@ -36,13 +36,17 @@
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .hero {
-    height: 600px;
+    height: 400px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/Header-tablet.jpg);
+    &__titel {
+      max-width: 450px;
+      margin: auto;
+    }
   }
 
   @media (min-device-pixel-ratio: 2),
