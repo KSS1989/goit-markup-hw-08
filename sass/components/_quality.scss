@@ -1,7 +1,7 @@
 .quality {
   padding-top: $paddidng-top-section-mobile;
   padding-bottom: $paddidng-bottom-section-mobile;
-  @media screen and (maiwidth: 1200px) {
+  @media screen and (min-width: 1200px) {
     padding-top: $paddidng-top-section;
     padding-bottom: $paddidng-bottom-section;
   }
@@ -11,6 +11,9 @@
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
+    }
+    @media (min-width: 1200px) {
+      display: flex;
     }
   }
   &__item {

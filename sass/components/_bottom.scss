@@ -32,12 +32,14 @@
     align-items: baseline;
   }
 }
-.tablet-bottom {
-  padding-bottom: $paddidng-bottom-section-mobile;
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
+@media (min-width: 768px) {
+  .tablet-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
 }
+
 .address {
   @media screen and(max-width:767px) {
     margin-top: 28px;
